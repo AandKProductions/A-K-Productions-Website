@@ -106,3 +106,7 @@ body
             .suggest{
                 color:white;
             }
+            .form-label{
+                color:white;
+                font-size:28px;
+            }
