@@ -110,3 +110,38 @@ body
                 color:white;
                 font-size:28px;
             }
+.button {
+    background:#03254c;
+    border:none;
+    outline:none;
+    display:block;
+    height:50px;
+    width:50px;
+    cursor:pointer;
+}
+h2{
+     color:white;
+}
+.nope{
+    margin-left:50%;
+    margin-top:50%;
+}
+.button2{
+    margin-left:95%;
+    background:#03254c;
+    border:none;
+    outline:none;
+    display:block;
+    height:50px;
+    width:50px;
+    cursor:pointer;
+}
+.last-one{
+    text-align:center;
+    margin-top:15%;
+}
+.secret-code2{
+    margin-left:35%;
+    margin-top:15%;
+    color:white;
+}
