@@ -1,0 +1,21 @@
+<body>
+    <h1 class="last-one">Last step</h1>
+<label for="pswd" class="secret-code2">Enter Secret Code: </label>
+<input type="password" id="pswd">
+<input type="button" value="Submit" onclick="checkPswd();" />
+</form> 
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "A&K";
+        
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="thevid.html";
+        }
+        else{
+            alert("Passwords do not match.");
+        }
+    }
+</script>
+</body>
+<link rel="stylesheet" type="text/css" href="styl.css">
